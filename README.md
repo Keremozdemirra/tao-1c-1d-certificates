@@ -16,4 +16,4 @@ certificate refines the K = 98304 certificate of PR #270 (V. Patankar).
 Found and prepared with Claude (Anthropic) under the direction of Kerem
 Özdemir. No human mathematician has checked the argument independently.
 
-Certificates: CC BY 4.0. Verifier code: MIT.
+Certificates and documentation: CC BY 4.0 (`LICENSE-data.md`). Verifier code: MIT (`LICENSE`).

@@ -2,7 +2,6 @@
 
 Two step-function certificates for constants on Terence Tao's optimization-constants page
 (https://github.com/teorth/optimizationproblems, pages `constants/1c.md` and `1d.md`), frozen 2026-10-26.
-The Erdős minimum overlap (C_1b) certificate is kept apart in `../release-1b/`.
 Every number below is an exact rational computed from the integer data in the JSON files.
 
 | File | Constant, direction | Exact value | Newest earlier claim (seed) | Margin |
@@ -39,4 +38,4 @@ python3 -I verifiers/cold/cold_c1c.py c1c_K98304_0.4103454241.json 2594500369901
 without access to the search code or to the other verifiers (int64-limb numpy convolution, cross-checked
 against their own `__int128` loop in `xcheck.c`). All three give the fractions in the table. Certified bounds, rounded outward: C_1d <= 1.4556234448, C_1c >= 0.4103454241.
 
-`SHA256SUMS` covers every file in this directory.
+`SHA256SUMS` covers every file in this repository except itself.
